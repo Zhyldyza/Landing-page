@@ -6,7 +6,7 @@ import { useState } from 'react';
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleItemClick = (id) => {
+  const handleItemClick = (id: any) => {
     setActiveIndex(id);
   }
     return (
