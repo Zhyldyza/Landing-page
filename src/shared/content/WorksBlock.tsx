@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import React from "react";
 import { WORK_ITEM } from "./const";
 import { Separator } from "@/components/ui/separator";
 
@@ -8,7 +7,7 @@ const WorksBlock = () => {
     <div className="bg-gradient-to-b from-[#5F12D0] to-white">
       <div className="">
         <div className="flex justify-center gap-[370px] py-[100px]">
-          <h2 className="text-white text-3xl font-semibold max-w-sm">
+          <h2 className="text-white text-3xl font-bold max-w-sm">
             Наши работы, на которых мы специализируемся
           </h2>
           <Button className="bg-[#4985FF] rounded-full text-sx text-white font-thin p-6">

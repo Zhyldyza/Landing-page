@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECTS_ITEM } from "./const";
 import { Button } from "@/components/ui/button";
 import img2 from "@/assets/project-bg2.png";
@@ -11,7 +10,7 @@ const Projects = () => {
     <div className="">
     <div className="bg-[#f6f6f6]">
       <div className="grid place-items-center gap-10 pt-[100px]">
-        <h2 className="text-3xl">Наши проекты</h2>
+        <h2 className="text-3xl font-bold">Наши проекты</h2>
         <p className="max-w-2xl text-center font-thin text-[#999999]">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
@@ -27,7 +26,7 @@ const Projects = () => {
         </Button>
       </div>
       <div className="relative bg-[url('/src/assets/bg-project.png')] bg-cover bg-center min-h-[570px]">
-        <h2 className="font-semibold text-3xl text-white text-center pt-[70px]">
+        <h2 className="font-bold text-3xl text-white text-center pt-[70px]">
           Видео о нашей работе
         </h2>
         <span className="block text-xs font-thin text-white text-center pt-[30px]">

@@ -1,4 +1,3 @@
-import React from "react";
 import { FOOTER_ITEMS } from "./const";
 import { Separator } from "@/components/ui/separator";
 
