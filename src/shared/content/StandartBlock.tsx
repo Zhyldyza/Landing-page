@@ -9,7 +9,7 @@ const StandartBlock = () => {
         <div>
             <h2 className='text-3xl max-w-sm pb-9 font-bold leading-10'>Высокие стандарты разработки</h2>
             <p className='text-[#999999] font-thin max-w-md pb-10'>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI&nbsp;века. </p>
-            <a className='text-[#4985FF] font-thin underline' href="#">Подробнее о компании</a>
+            <a className='text-[#4985FF] font border-b border-[#4985FF]' href="#">Подробнее o компании</a>
         </div>
         <img className='max-h-[500px] max-w-[400px] rounded-lg' src={standartPix} alt="standart block pix" />
     </div>

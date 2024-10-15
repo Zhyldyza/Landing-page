@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex justify-center gap-[43px]">
       {FOOTER_ITEMS.map((item) => (
           <div className="">
-            <h3 className="text-lg font-semibold ">{item.title}</h3>
+            <h3 className="text-lg font-normal ">{item.title}</h3>
             <ul className="text-[#999999] text-xs font-thin">
               <li className="pb-5 pt-5">
                 <p>{item.value1}</p>
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="flex justify-center pt-[70px]">
             <Separator className="bg-[#E0E0E0] py-[1px] w-1/2" />
       </div>
-        <p className="text-center text-[#999999] font-thin py-[30px]">(с) 2019. Все права защищены.</p>
+        <p className="text-center text-[#999999] text-[13px] font-thin py-[30px]">(с) 2019. Все права защищены.</p>
     </div>
   );
 };

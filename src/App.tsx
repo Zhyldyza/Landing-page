@@ -4,7 +4,6 @@ import StandartBlock from './shared/content/StandartBlock';
 import WorksBlock from './shared/content/WorksBlock';
 import Projects from './shared/content/Projects';
 import Footer from './shared/footer/Footer';
-
 const App = () => {
   return (
     <>
