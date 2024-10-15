@@ -54,7 +54,10 @@ const Projects = () => {
         <div className="grid place-items-center pt-[300px]">
         <h3 className="text-base font-semibold pb-5">Подпишитесь на нашу рассылку</h3>
         <p className="text-[#999999] text-s font-thin pb-[30px]">Полезные статьи, акции, новости - получите все это сейчас!</p>
-        <Input className="rounded-full w-2/6 border border-gray-300 shadow-md focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 p-2" type="email" placeholder="Ваш Email"/>
+        <div className="flex justify-center w-[33%]">
+          <Input className="rounded-l-3xl w-2/6 border border-gray-300 shadow-md focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 p-2" type="email" placeholder="Ваш Email"/>
+          <Button className="bg-blue-500 rounded-r-3xl">Подписаться</Button>
+        </div>
         <p className="text-[#999999] text-s font-thin pt-[30px] pb-[85px]">Мы не шлем спам, и передаем никому ваши данные.</p>
     </div>
     </div>

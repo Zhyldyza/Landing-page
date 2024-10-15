@@ -24,7 +24,7 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <Separator className="my-2 bg-[#A1A1A1] z-0"/>
+          <Separator className="bg-[#A1A1A1] z-0"/>
           <div className='grid place-items-center text-white pt-60'>
             <span className='text-sx font-thin'>Передовая IT студия</span>
             <h2 className='text-5xl font-bold pt-5 pb-[50px] text-center'>Мы создаем легкие решения

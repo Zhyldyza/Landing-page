@@ -59,6 +59,7 @@
     @apply border-border;
   }
   body {
+    max-width: 1920px;
     @apply bg-background text-foreground;
   }
 }
