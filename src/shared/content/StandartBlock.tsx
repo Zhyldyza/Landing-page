@@ -1,5 +1,4 @@
-import React from 'react'
-import standartPix from '@/assets/standartBlock.jpeg'
+import standartPix from '@/assets/standart-block.jpeg'
 import { Separator } from '@radix-ui/react-separator'
 import { STANDART_ITEM } from './const'
 
@@ -8,8 +7,8 @@ const StandartBlock = () => {
     <div className='pt-[105px] bg-[#f6f6f8]'>
     <div className="flex justify-center gap-[121px] pb-[143px]">
         <div>
-            <h2 className='text-3xl max-w-sm pb-9 leading-10'>Высокие стандарты разработки</h2>
-            <p className='text-[#999999] font-thin max-w-md pb-10'>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+            <h2 className='text-3xl max-w-sm pb-9 font-bold leading-10'>Высокие стандарты разработки</h2>
+            <p className='text-[#999999] font-thin max-w-md pb-10'>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI&nbsp;века. </p>
             <a className='text-[#4985FF] font-thin underline' href="#">Подробнее о компании</a>
         </div>
         <img className='max-h-[500px] max-w-[400px] rounded-lg' src={standartPix} alt="standart block pix" />

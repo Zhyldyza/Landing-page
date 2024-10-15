@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './shared/header/Header'
 import Content from './shared/content/Content';
 import StandartBlock from './shared/content/StandartBlock';

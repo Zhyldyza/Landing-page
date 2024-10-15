@@ -1,4 +1,3 @@
-import React from 'react'
 import project from "@/assets/project.svg"
 import { Button } from '@/components/ui/button';
 
@@ -6,7 +5,7 @@ const Content = () => {
   return (
     <div className='bg-white'>
       <div className='pt-[110px] grid place-items-center gap-10'>
-        <h2 className='text-4xl max-w-2xl text-center'>Мы создаем мобильные приложения для крупных корпораций</h2>
+        <h2 className='text-4xl max-w-2xl font-bold text-center'>Мы создаем мобильные приложения для крупных корпораций</h2>
         <p className='text-[#999999] font-thin max-w-2xl text-center'>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
       </div>
       <div className='flex justify-center gap-[50px] pt-[70px]'>
