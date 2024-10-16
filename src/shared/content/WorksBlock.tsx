@@ -34,9 +34,9 @@ const WorksBlock = () => {
           </div>
         ))}
       </div>
+      <div className="w-full pt-[85px] pb-[85px]">
+      <Separator className="bg-[#E0E0E0] border-e-0"/>
       </div>
-      <div className="flex justify-center pb-[100px]">
-        <Separator className='bg-[#E0E0E0] py-[1px] w-5/6'/>
       </div>
     </div>
   </div>

@@ -47,8 +47,8 @@ const Projects = () => {
               Смотреть Видео
             </Button>
           </div>
-          <div className="flex justify-center pt-10">
-            <Separator className="bg-[#E0E0E0] py-[1px] w-full" />
+          <div className="pt-20 w-full">
+            <Separator className="bg-[#E0E0E0] py-[0.5px]"/>
           </div>
         </div>
       </div>
