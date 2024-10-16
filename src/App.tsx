@@ -8,7 +8,7 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div className="grid items-center">
+    <div className="">
       <Header />
       <Content />
       <StandartBlock />
