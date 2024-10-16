@@ -4,18 +4,18 @@ import StandartBlock from "./shared/content/StandartBlock";
 import WorksBlock from "./shared/content/WorksBlock";
 import Projects from "./shared/content/Projects";
 import Footer from "./shared/footer/Footer";
-import "./index.css";
+
 
 const App = () => {
   return (
-    <div className="">
+    <>
       <Header />
       <Content />
       <StandartBlock />
       <WorksBlock />
       <Projects />
       <Footer />
-    </div>
+    </>
   );
 };
 
