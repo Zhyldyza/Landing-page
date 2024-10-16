@@ -4,8 +4,9 @@ import { STANDART_ITEM } from './const'
 
 const StandartBlock = () => {
   return (
-    <div className='pt-[105px] bg-[#f6f6f8]'>
-    <div className="flex justify-center gap-[121px] pb-[143px]">
+    <div className='pt-[105px] bg-[#f6f6f8] w-full'>
+        <div className='w-2/3 mx-auto'>
+    <div className="flex justify-between pb-[143px]">
         <div>
             <h2 className='text-3xl max-w-sm pb-9 font-bold leading-10'>Высокие стандарты разработки</h2>
             <p className='text-[#999999] font-thin max-w-md pb-10'>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI&nbsp;века. </p>
@@ -26,6 +27,7 @@ const StandartBlock = () => {
                 </div>
             </div>
         ))}
+    </div>
     </div>
     </div>
   )

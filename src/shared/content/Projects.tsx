@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 
 const Projects = () => {
   return (
-    <div className="">
+    <div className="w-full">
     <div className="bg-[#f6f6f6]">
       <div className="grid place-items-center gap-10 pt-[100px]">
         <h2 className="text-3xl font-bold">Наши проекты</h2>
@@ -16,10 +16,12 @@ const Projects = () => {
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.{" "}
         </p>
-        <div className="flex gap-8 pt-[70px]">
+        <div className="w-2/3 mx-auto">
+        <div className="flex justify-between pt-[70px]">
           {PROJECTS_ITEM.map((item) => (
             <img src={item.img} alt="project icon" />
           ))}
+        </div>
         </div>
         <Button className="mb-[130px] py-4 px-9 bg-[#4985FF] rounded-full text-sx font-thin text-white">
           Все проекты
