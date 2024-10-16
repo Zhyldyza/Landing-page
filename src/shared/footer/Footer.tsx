@@ -3,8 +3,9 @@ import { Separator } from "@/components/ui/separator";
 
 const Footer = () => {
   return (
-    <div className="bg-[#f6f6f8] pt-[70px]">
-        <div className="flex justify-center gap-[43px]">
+    <div className="bg-[#f6f6f8] pt-[70px] w-full">
+      <div className="w-2/3 mx-auto">
+        <div className="flex justify-between pb-[70px]">
       {FOOTER_ITEMS.map((item) => (
           <div className="">
             <h3 className="text-lg font-normal ">{item.title}</h3>
@@ -22,8 +23,7 @@ const Footer = () => {
           </div>
       ))}
       </div>
-      <div className="flex justify-center pt-[70px]">
-            <Separator className="bg-[#E0E0E0] py-[1px] w-1/2" />
+      <Separator className="bg-[#E0E0E0] py-[0.5px]"/>
       </div>
         <p className="text-center text-[#999999] text-[13px] font-thin py-[30px]">(с) 2019. Все права защищены.</p>
     </div>

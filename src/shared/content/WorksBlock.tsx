@@ -8,7 +8,8 @@ const WorksBlock = () => {
      <div className="absolute top-0 left-0 right-0 h-1/2 bg-[#5F12D0]"></div>
       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-white"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full">
-        <div className="flex gap-[370px] py-[100px] items-center">
+      <div className="w-2/3 mx-auto">
+        <div className="flex justify-between py-[100px] items-center">
           <h2 className="text-white text-3xl font-bold max-w-sm">
           Наши работы, на которых мы специализируемся
           </h2>
@@ -16,7 +17,7 @@ const WorksBlock = () => {
           Все услуги
           </Button>
         </div>
-      <div className="grid grid-cols-3 gap-7 pb-10 w-[50%]">
+      <div className="grid grid-cols-3 gap-7 pb-10">
         {WORK_ITEM.map((item) => (
           <div className="flex flex-col items-start">
             <img
@@ -33,8 +34,9 @@ const WorksBlock = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center pb-[100px]">
-        <Separator className='bg-[#E0E0E0] py-[1px] w-5/6'/>
+      <div className="w-full pt-[85px] pb-[85px]">
+      <Separator className="bg-[#E0E0E0] border-e-0"/>
+      </div>
       </div>
     </div>
   </div>

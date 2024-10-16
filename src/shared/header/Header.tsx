@@ -10,6 +10,7 @@ const Header = () => {
     setActiveIndex(id);
   }
     return (
+      <div>
         <header className="bg-[url('/src/assets/header-bg.png')] bg-cover bg-center min-h-[900px]">
           <div className="max-w-7xl mx-auto flex justify-end">
             <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 gap-10 text-center py-6 ">
@@ -32,6 +33,7 @@ const Header = () => {
             <Button className="bg-[#4985FF] rounded-full text-sx font-thin py-[15px] px-[30px]">Наши проекты</Button>
           </div>
         </header>
+      </div>
     );
   };
 
