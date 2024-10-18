@@ -125,10 +125,9 @@ const Content = () => {
           </div>
         </div>
       </div>
-
       <div className="p-14 flex justify-center">
-        <Button className="bg-[#4985FF] rounded-full text-md font-thin text-white px-[60px]">
-          Все услуги
+         <Button className="bg-[#4985FF] rounded-full text-md font-thin text-white px-[60px]">
+         Все услуги
         </Button>
       </div>
     </div>
