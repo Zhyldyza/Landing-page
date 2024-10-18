@@ -4,19 +4,19 @@ import { Separator } from "@/components/ui/separator";
 const Footer = () => {
   return (
     <div className="bg-[#f6f6f8] pt-[70px] w-full">
-      <div className="w-2/3 mx-auto">
-        <div className="flex justify-between pb-[70px]">
+      <div className="w-3/5 mx-auto">
+        <div className="grid grid-cols-4 items-start pb-[104px]">
       {FOOTER_ITEMS.map((item) => (
           <div className="">
-            <h3 className="text-lg font-normal ">{item.title}</h3>
-            <ul className="text-[#999999] text-xs font-thin">
+            <h2 className="text-xl font-normal ">{item.title}</h2>
+            <ul className="text-[#999999] text-s font-thin">
               <li className="pb-5 pt-5">
                 <p>{item.value1}</p>
               </li>
               <li className="pb-5">
                 <p>{item.value2}</p>
               </li>
-              <li className="pb-5">
+              <li>
                 <p>{item.value3}</p>
               </li>
             </ul>
