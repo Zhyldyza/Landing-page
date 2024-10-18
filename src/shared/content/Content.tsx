@@ -15,7 +15,7 @@ const Content = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 place-items-center justify-center pt-[70px] w-2/3 mx-auto">
+      <div className="grid grid-cols-3 place-items-center justify-center pt-[99px] w-3/5 mx-auto">
         <div className="flex">
           <div className="relative flex items-center justify-center">
             <svg
@@ -46,7 +46,7 @@ const Content = () => {
           </div>
           <div className="relative pl-10">
             <h3 className="font-semibold">Создание сайтов</h3>
-            <p className="text-[#999999] font-thin max-w-xs">
+            <p className="text-[#999999] font-thin max-w-40">
               Lorem Ipsum - это текст- "рыба", часто используе в печати и
               вэб-дизайне.
             </p>
@@ -82,7 +82,7 @@ const Content = () => {
           </div>
           <div className="relative pl-10">
             <h3 className="font-semibold">Создание сайтов</h3>
-            <p className="text-[#999999] font-thin max-w-xs">
+            <p className="text-[#999999] font-thin max-w-40">
               Lorem Ipsum - это текст- "рыба", часто используе в печати и
               вэб-дизайне.
             </p>
@@ -118,7 +118,7 @@ const Content = () => {
           </div>
           <div className="relative pl-10">
             <h3 className="font-semibold">Создание сайтов</h3>
-            <p className="text-[#999999] font-thin max-w-xs">
+            <p className="text-[#999999] font-thin max-w-40">
               Lorem Ipsum - это текст- "рыба", часто используе в печати и
               вэб-дизайне.
             </p>
@@ -127,7 +127,7 @@ const Content = () => {
       </div>
 
       <div className="p-14 flex justify-center">
-        <Button className="bg-[#4985FF] rounded-full text-sx font-thin text-white p-6">
+        <Button className="bg-[#4985FF] rounded-full text-md font-thin text-white px-[60px]">
           Все услуги
         </Button>
       </div>

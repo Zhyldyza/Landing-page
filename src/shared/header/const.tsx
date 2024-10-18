@@ -11,7 +11,7 @@ export const HEADER_ITEMS: HeaderItem[]=[
     },
     {
         id:3,
-        title: 'Наши услуги',
+        title: 'Услуги',
     },
     {
         id:4,

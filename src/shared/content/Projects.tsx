@@ -9,37 +9,37 @@ const Projects = () => {
   return (
     <div className="w-full">
     <div className="bg-[#f6f6f6]">
-      <div className="grid place-items-center gap-10 pt-[100px]">
-        <h2 className="text-3xl font-bold">Наши проекты</h2>
+      <div className="grid place-items-center gap-10 pt-[99px]">
+        <h1 className="text-4xl font-bold">Наши проекты</h1>
         <p className="max-w-2xl text-center font-thin text-[#999999]">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.{" "}
         </p>
-        <div className="w-2/3 mx-auto">
-        <div className="flex justify-between pt-[70px]">
+        <div className="w-3/5 mx-auto">
+        <div className="flex justify-between pt-[38px]">
           {PROJECTS_ITEM.map((item) => (
             <img src={item.img} alt="project icon" />
           ))}
         </div>
         </div>
-        <Button className="mb-[130px] py-4 px-9 bg-[#4985FF] rounded-full text-sx font-thin text-white">
+        <Button className="mb-[135px] bg-[#4985FF] rounded-full text-md font-thin text-white px-[55px]">
           Все проекты
         </Button>
       </div>
       <div className="relative bg-[url('/src/assets/bg-project.png')] bg-cover bg-center min-h-[570px]">
-        <h2 className="font-bold text-3xl text-white text-center pt-[70px]">
+        <h1 className="font-bold text-4xl text-white text-center pt-[70px]">
           Видео о нашей работе
-        </h2>
-        <span className="block text-xs font-thin text-white text-center pt-[30px]">
+        </h1>
+        <span className="block text-lg font-thin text-white text-center pt-[30px]">
           Просто посмотрите, как мы работаем
         </span>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2">
-          <img className="max-h-[430px] max-w-[970px]" src={img2} />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/3">
+          <img className="max-h-[450px] max-w-[980px]" src={img2} />
+          <div className="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-3/4">
             <Button
               variant="outline"
-              className="bg-inherit  rounded-full text-white py-[50px] px-[50px]"
+              className="bg-inherit rounded-full text-white py-[50px] px-[50px]"
             >
               <div className="pr-[21px] font-thin">
                 <img className="" src={btn} />
@@ -47,20 +47,20 @@ const Projects = () => {
               Смотреть Видео
             </Button>
           </div>
-          <div className="pt-20 w-full">
+          <div className="pt-24 w-full">
             <Separator className="bg-[#E0E0E0] py-[0.5px]"/>
           </div>
         </div>
       </div>
     </div>
-        <div className="grid place-items-center pt-[300px]">
-        <h3 className="text-base font-semibold pb-5">Подпишитесь на нашу рассылку</h3>
-        <p className="text-[#999999] text-s font-thin pb-[30px]">Полезные статьи, акции, новости - получите все это сейчас!</p>
+        <div className="grid place-items-center pt-[250px]">
+        <h2 className="text-lg font-semibold pb-2">Подпишитесь на нашу рассылку</h2>
+        <p className="text-[#999999] text-md font-thin pb-[25px]">Полезные статьи, акции, новости - получите все это сейчас!</p>
         <div className="flex justify-center w-[33%]">
-          <Input className="rounded-l-3xl w-2/6 border border-gray-300 shadow-md focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 p-2" type="email" placeholder="Ваш Email"/>
-          <Button className="bg-blue-500 rounded-r-3xl">Подписаться</Button>
+          <Input className="rounded-l-3xl w-3/6 border border-gray-300 shadow-md focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 p-2" type="email" placeholder="Ваш Email"/>
+          <Button className="bg-blue-500 rounded-r-3xl w-2/6">Подписаться</Button>
         </div>
-        <p className="text-[#999999] text-s font-thin pt-[30px] pb-[85px]">Мы не шлем спам, и передаем никому ваши данные.</p>
+        <p className="text-[#999999] text-[14px] font-thin pt-[35px] pb-[85px]">Мы не шлем спам, и передаем никому ваши данные.</p>
     </div>
     </div>
   );
